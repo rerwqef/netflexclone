@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IN-en-20230626-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav button {
+    border: 0;
+    background-color: #db0001;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+
+}
+
+button {
+    outline: none;
+    
+}
+
+.lang-button {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    /* border: 1px solid #fff; */
+    
+
+}
+/* .lang-button select{
+   padding-left: ; 
+} */
+/* .lang-button img {
+    width: 10px;
+    margin-left: 10px;
+} */
+
+.header-content {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 100px;
+}
+
+.header-content h1 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.header-content h3 {
+
+    font-size: 20px;
+}
+
+.header-content p {
+
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.email-signup {
+
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+.email-signup input {
+    flex: 0.5;
+    border: 2px #fff;
+    color: #fff;
+    outline: 0.5px solid #fff;
+    padding: 12px;
+    margin-left: 300px;
+    background-color: transparent;
+    font-size: 18px;
+
+}
+
+.email-signup button {
+    background-color: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+.properties {
+    padding: 50px 183px;
+    width: 100%;
+    font-size: 22px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0;
+    /* border-top:6px solid #333 ; */
+}
+
+/* .properties .row{
+    border-top: 6px solid #333;
+    width: 100%;                        it is used to give a divider between photoes,but border not getting complitly
+    padding: 0;
+    margin: 0;
+} */
+.text-box {
+
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+
+}
+
+.img-box {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+
+.img-box img {
+
+    width: 90%;
+    margin: 0 29px;
+}
+
+.text-box h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/* ............................FAQ SECTION.............................................. */
+.faq {
+    text-align: center;
+    padding: 10px 183px;
+    font-size: 18px;
+    border-top: 6px solid #333;
+
+}
+
+.faq h2 {
+    font-weight: 500px;
+    font-size: 40px;
+}
+
+.hidding {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px
+
+}
+
+.hidding li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+
+}
+
+.hidding li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500px;
+    background-color: #303030;
+    margin-bottom: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+ label::after {
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.hidding .content {
+    background-color: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.hidding input[type="radio"]:checked+label+.content {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+/* .....................................footer starting.......................................................... */
+.footer {
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+       flex: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer h2 {
+    font-size: 18px;
+    font-weight: 400px;
+
+    margin-bottom: 30px;
+}
+
+
+
+.footer a {
+    display: block;
+    /* text-decoration: none;                             not needed             */    
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+
+}
+
+.text-box {
+    list-style-type: none;             /* it is used for removing dote */
+    color: white;
+    line-height: 40px;
+    text-align: left;
+}
+
+.row {
+    font-size: large;
+    color: #fff;
+}
+
+/* .space1{
+height: 200px;
+width: 100%;                                   not working 
+color: aqua;
+} */
+
+.lang-button1 {
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+
+}
+
+.p1 {
+    margin-top: 10px;
+}
