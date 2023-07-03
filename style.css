@@ -43,29 +43,32 @@ nav button {
     border-radius: 4px;
     margin: 0 0 0 10px;
     cursor: pointer;
-
+  outline: none;
 }
 
-button {
-    outline: none;
+button:hover  {
+  background-color:#fff;
+  color: #000;
     
 }
 
-.lang-button {
+
+.lang-button  {
     display: inline-flex;
     align-items: center;
-    background: transparent;
-    /* border: 1px solid #fff; */
+    
     
 
 }
-/* .lang-button select{
-   padding-left: ; 
-} */
-/* .lang-button img {
-    width: 10px;
-    margin-left: 10px;
-} */
+.lang-button:hover{
+padding: 5px;
+}
+select{
+    background: transparent;
+    color: #fff;
+    background-color: #000;
+}
+
 
 .header-content {
     position: absolute;
@@ -74,6 +77,9 @@ button {
     text-align: center;
     line-height: 50px;
     margin-top: 100px;
+}
+ .header-content button:hover{
+    margin-left: 10px;
 }
 
 .header-content h1 {
@@ -108,7 +114,7 @@ button {
     color: #fff;
     outline: 0.5px solid #fff;
     padding: 12px;
-    margin-left: 300px;
+    margin-left: 250px;
     background-color: transparent;
     font-size: 18px;
 
@@ -252,8 +258,7 @@ input[type="radio"] {
 
 
 .footer a {
-    display: block;
-    /* text-decoration: none;                             not needed             */    
+    display: block; 
     color: #777;
     font-size: 14px;
     margin-bottom: 10px;
@@ -273,20 +278,20 @@ input[type="radio"] {
     color: #fff;
 }
 
-/* .space1{
-height: 200px;
-width: 100%;                                   not working 
-color: aqua;
-} */
+
 
 .lang-button1 {
     color: #fff;
     display: inline-flex;
     align-items: center;
-    background: transparent;
+
     border: 1px solid #fff;
     padding: 10px 15px;
 
+}
+.text-box a:hover{
+    margin-left: 10px;
+    
 }
 
 .p1 {
